@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -9,10 +9,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <style>
-  .fakeimg {
+  .img-fluid {
     height: 200px;
-    background: #aaa;
-  }
+   }
   </style>
 </head>
 <body>
@@ -46,8 +45,9 @@
   <div class="row">
     <div class="col-sm-4">
       <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
+      <h5></h5>
+      <div class="bioimg">
+      <img src="Marsha pic.jpg" class="img-fluid" alt="Your Image" id="bio-image"></div>
       <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       <h3>Some Links</h3>
       <p>Lorem ipsum dolor sit ame.</p>
@@ -60,9 +60,14 @@
     </div>
   </div>
 </div>
-
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
+<div class="jumbotron text-right" style="margin-bottom:0">
+  <a href="https://www.linkedin.com/in/marsha-david" class="fa-stack icon-linkedin" target="_blank">
+    <span class="=sr-only">Linkedin</span>
+      <i class="fas fa-circle fa-stack-2x mono">...</i>"
+      <i class="fab fa-linkedin mono fa-stack-1x fa-inverse">...</i>"
+  </a>
 </div>
+
 </body>
+
 </html>
