@@ -2,6 +2,14 @@
     color:#0072bb;
 }
 
+.navbar-item {padding-right:20px;
+
+}
+.container {margin:0;
+}
+.img-fluid_1{
+    margin:0 auto;
+}
 h4 {
     /* Box-model */
     padding: 20px 0;
